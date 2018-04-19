@@ -1,6 +1,6 @@
 {
   "name": "@yutahaga/babel-preset-web",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Babel preset for Web",
   "main": "index.js",
   "publishConfig": {
