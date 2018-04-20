@@ -217,6 +217,20 @@
     "@babel/helper-wrap-function" "7.0.0-beta.44"
     "@babel/plugin-syntax-function-sent" "7.0.0-beta.44"
 
+"@babel/plugin-proposal-logical-assignment-operators@^7.0.0-0":
+  version "7.0.0-beta.44"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-logical-assignment-operators/-/plugin-proposal-logical-assignment-operators-7.0.0-beta.44.tgz#0c910d587a870e66c261253fa86555b785bf9f47"
+  dependencies:
+    "@babel/helper-plugin-utils" "7.0.0-beta.44"
+    "@babel/plugin-syntax-logical-assignment-operators" "7.0.0-beta.44"
+
+"@babel/plugin-proposal-nullish-coalescing-operator@^7.0.0-0":
+  version "7.0.0-beta.44"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-nullish-coalescing-operator/-/plugin-proposal-nullish-coalescing-operator-7.0.0-beta.44.tgz#595d86c78c978dd7121482d864a6586e7302dce1"
+  dependencies:
+    "@babel/helper-plugin-utils" "7.0.0-beta.44"
+    "@babel/plugin-syntax-nullish-coalescing-operator" "7.0.0-beta.44"
+
 "@babel/plugin-proposal-numeric-separator@7.0.0-beta.44":
   version "7.0.0-beta.44"
   resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-numeric-separator/-/plugin-proposal-numeric-separator-7.0.0-beta.44.tgz#48c580cdd055cd11c8d3abc94829bc6f830e18fd"
@@ -237,6 +251,20 @@
   dependencies:
     "@babel/helper-plugin-utils" "7.0.0-beta.44"
     "@babel/plugin-syntax-optional-catch-binding" "7.0.0-beta.44"
+
+"@babel/plugin-proposal-optional-chaining@^7.0.0-0":
+  version "7.0.0-beta.44"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-optional-chaining/-/plugin-proposal-optional-chaining-7.0.0-beta.44.tgz#f90682a4ced3eaf80c906a349ce9faa424c0b211"
+  dependencies:
+    "@babel/helper-plugin-utils" "7.0.0-beta.44"
+    "@babel/plugin-syntax-optional-chaining" "7.0.0-beta.44"
+
+"@babel/plugin-proposal-pipeline-operator@^7.0.0-0":
+  version "7.0.0-beta.44"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-pipeline-operator/-/plugin-proposal-pipeline-operator-7.0.0-beta.44.tgz#233041e3cf11fd108044e3cf40ac6ae4645725b8"
+  dependencies:
+    "@babel/helper-plugin-utils" "7.0.0-beta.44"
+    "@babel/plugin-syntax-pipeline-operator" "7.0.0-beta.44"
 
 "@babel/plugin-proposal-throw-expressions@7.0.0-beta.44":
   version "7.0.0-beta.44"
@@ -301,6 +329,18 @@
   dependencies:
     "@babel/helper-plugin-utils" "7.0.0-beta.44"
 
+"@babel/plugin-syntax-logical-assignment-operators@7.0.0-beta.44":
+  version "7.0.0-beta.44"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-syntax-logical-assignment-operators/-/plugin-syntax-logical-assignment-operators-7.0.0-beta.44.tgz#9886e994045494fc7f6c91a8dc86988bf98849e1"
+  dependencies:
+    "@babel/helper-plugin-utils" "7.0.0-beta.44"
+
+"@babel/plugin-syntax-nullish-coalescing-operator@7.0.0-beta.44":
+  version "7.0.0-beta.44"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-syntax-nullish-coalescing-operator/-/plugin-syntax-nullish-coalescing-operator-7.0.0-beta.44.tgz#a2b8a342636f0c43a17bcdebef558aa74ef2794b"
+  dependencies:
+    "@babel/helper-plugin-utils" "7.0.0-beta.44"
+
 "@babel/plugin-syntax-numeric-separator@7.0.0-beta.44":
   version "7.0.0-beta.44"
   resolved "https://registry.yarnpkg.com/@babel/plugin-syntax-numeric-separator/-/plugin-syntax-numeric-separator-7.0.0-beta.44.tgz#f692545d4011e541bf948338b6e856cefb78e27e"
@@ -316,6 +356,18 @@
 "@babel/plugin-syntax-optional-catch-binding@7.0.0-beta.44":
   version "7.0.0-beta.44"
   resolved "https://registry.yarnpkg.com/@babel/plugin-syntax-optional-catch-binding/-/plugin-syntax-optional-catch-binding-7.0.0-beta.44.tgz#c79ee93c371831b104bb0a1cc9c85ac5373af4f3"
+  dependencies:
+    "@babel/helper-plugin-utils" "7.0.0-beta.44"
+
+"@babel/plugin-syntax-optional-chaining@7.0.0-beta.44":
+  version "7.0.0-beta.44"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-syntax-optional-chaining/-/plugin-syntax-optional-chaining-7.0.0-beta.44.tgz#3e41156dc1cc94b1b6cc21cfb96e50dda4ad9986"
+  dependencies:
+    "@babel/helper-plugin-utils" "7.0.0-beta.44"
+
+"@babel/plugin-syntax-pipeline-operator@7.0.0-beta.44":
+  version "7.0.0-beta.44"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-syntax-pipeline-operator/-/plugin-syntax-pipeline-operator-7.0.0-beta.44.tgz#ab5af2743b05a542abab74d1d52a0fbd76889770"
   dependencies:
     "@babel/helper-plugin-utils" "7.0.0-beta.44"
 
@@ -3371,7 +3423,7 @@ left-pad@^1.2.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/left-pad/-/left-pad-1.3.0.tgz#5b8a3a7765dfe001261dde915589e782f8c94d1e"
 
-lerna@^2.10.2:
+lerna@^2.9.1:
   version "2.10.2"
   resolved "https://registry.yarnpkg.com/lerna/-/lerna-2.10.2.tgz#3a0d54d398360fecc5918207c6d7ab68a5443d9f"
   dependencies:
